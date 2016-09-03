@@ -6,6 +6,8 @@ Use a Portuguese layout Windows keyboard on a Mac with Karabiner
 
 2) Switch Control and Alt keys on Mac System Settings
 
-3) Under Misc & Uninstall open private.xml and add the contents of the file on this repo
+3) Under *Misc & Uninstall* open private.xml and add the contents of the file on this repo
 
-4) Go to Change Key, click reload private.xml, then check the options under Remap Portuguese Keys and check the relevant ones
+4) Go to *Change Key* and click reload private.xml
+
+5) Then check the options under Remap Portuguese Keys and tick the relevant ones
