@@ -1,0 +1,34 @@
+<?xml version="1.0"?>
+<root>
+  <item>
+    <name>Remap Portuguese keys</name>\
+    <item>
+      <name>Remap less than to backslash</name>
+      <identifier>remap.portuguese_less_than</identifier>
+      <autogen>__KeyToKey__ KeyCode::SPANISH_LESS_THAN, KeyCode::BACKSLASH</autogen>
+    </item>
+    <item>
+      <name>Remap ordinal to less than</name>
+      <identifier>remap.portuguese_back</identifier>
+      <autogen>__KeyToKey__ KeyCode::SPANISH_ORDINAL_INDICATOR, KeyCode::SPANISH_LESS_THAN</autogen>
+    </item>
+    <item>
+      <name>Remap nav keys</name>
+      <identifier>remap.portuguese_nav_keys</identifier>
+      <autogen>__KeyToKey__ KeyCode::CURSOR_LEFT, ModifierFlag::COMMAND_L, KeyCode::CURSOR_LEFT, ModifierFlag::OPTION_L</autogen>
+      <autogen>__KeyToKey__ KeyCode::CURSOR_RIGHT, ModifierFlag::COMMAND_L, KeyCode::CURSOR_RIGHT, ModifierFlag::OPTION_L</autogen>
+      <autogen>__KeyToKey__ KeyCode::DELETE, ModifierFlag::COMMAND_L, KeyCode::DELETE, ModifierFlag::OPTION_L</autogen>
+    </item>
+    <item>
+      <name>Remap ALT TAB</name>
+      <identifier>remap.windows_alt_tab</identifier>
+      <autogen>__KeyToKey__ KeyCode::TAB, ModifierFlag::OPTION_L, KeyCode::TAB, ModifierFlag::COMMAND_L</autogen>
+    </item>
+    <item>
+      <name>Remap curly brackets</name>
+      <identifier>remap.portuguese_curly_brackets</identifier>
+      <autogen>__KeyToKey__ KeyCode::7, ModifierFlag::OPTION_R, KeyCode::8, ModifierFlag::OPTION_L | ModifierFlag::SHIFT_L</autogen>
+      <autogen>__KeyToKey__ KeyCode::0, ModifierFlag::OPTION_R, KeyCode::9, ModifierFlag::OPTION_L | ModifierFlag::SHIFT_L</autogen>
+    </item>
+  </item>
+</root>
