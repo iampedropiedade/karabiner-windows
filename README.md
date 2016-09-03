@@ -1,2 +1,2 @@
 # karabiner-windows
-Use a Windows Keyboard with portuguese layout on a Mac with Karabiner
+Use a Portuguese layout Windows keyboard on a Mac with Karabiner
