@@ -26,6 +26,21 @@
       <autogen>__KeyToKey__ KeyCode::TAB, ModifierFlag::OPTION_L, KeyCode::TAB, ModifierFlag::COMMAND_L</autogen>
     </item>
     <item>
+      <name>Remap Euro sign</name>
+      <identifier>remap.portuguese_euro_sign</identifier>
+      <autogen>__KeyToKey__ KeyCode::E, MODIFIERFLAG_EITHER_LEFT_OR_RIGHT_OPTION | ModifierFlag::NONE, KeyCode::KEY_4, MODIFIERFLAG_EITHER_LEFT_OR_RIGHT_OPTION</autogen>      
+    </item>
+     <item>
+      <name>Remap Pound sign</name>
+      <identifier>remap.portuguese_pound_sign</identifier>
+      <autogen>__KeyToKey__ KeyCode::3, MODIFIERFLAG_EITHER_LEFT_OR_RIGHT_OPTION, KeyCode::4, MODIFIERFLAG_EITHER_LEFT_OR_RIGHT_OPTION</autogen>      
+    </item>
+    <item>
+      <name>Remap Command+C to Control+C</name>
+      <identifier>remap.portuguese_control_c</identifier>
+      <autogen>__KeyToKey__ KeyCode::C, ModifierFlag::COMMAND_L, KeyCode::C, ModifierFlag::CONTROL_L</autogen>      
+    </item>  
+    <item>
       <name>Remap curly brackets</name>
       <identifier>remap.portuguese_curly_brackets</identifier>
       <autogen>__KeyToKey__ KeyCode::7, ModifierFlag::OPTION_R, KeyCode::8, ModifierFlag::OPTION_L | ModifierFlag::SHIFT_L</autogen>
