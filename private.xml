@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <root>
   <item>
-    <name>Remap Portuguese keys</name>\
+    <name>Remap Portuguese keys</name>
     <item>
       <name>Remap less than to backslash</name>
       <identifier>remap.portuguese_less_than</identifier>
@@ -18,7 +18,7 @@
       <autogen>__KeyToKey__ KeyCode::CURSOR_LEFT, ModifierFlag::COMMAND_L, KeyCode::CURSOR_LEFT, ModifierFlag::OPTION_L</autogen>
       <autogen>__KeyToKey__ KeyCode::CURSOR_RIGHT, ModifierFlag::COMMAND_L, KeyCode::CURSOR_RIGHT, ModifierFlag::OPTION_L</autogen>
       <autogen>__KeyToKey__ KeyCode::DELETE, ModifierFlag::COMMAND_L, KeyCode::DELETE, ModifierFlag::OPTION_L</autogen>
-      <autogen>__KeyToKey__ KeyCode::FORWARD_DELETE, ModifierFlag::COMMAND_L, KeyCode::FORWARD_DELETE, ModifierFlag::OPTION_L</autogen>
+      <autogen>__KeyToKey__ KeyCode::FORWARD_DELETE, ModifierFlag::COMMAND_L, KeyCode::FORWARD_DELETE, ModifierFlag::OPTION_L</autogen>\
     </item>
     <item>
       <name>Remap ALT TAB</name>
